@@ -1,0 +1,18 @@
+body {font-family: Verdana; font-size: 10}
+.header {background-color:#718085}
+h1 {font-family: Verdana; font-size: 14; color: white}
+.loginBackground {background-color:#125280}
+.loginButton {background-color:#1A7AAD; color: white;}
+.whiteText {color: white}
+.signInButton {background-color:#59666D; color: white; font-family: Verdana; font-weight:bold}
+.navButton {background-color:#59666D; color: white; font-family: Verdana; width: 20%}
+.searchButton {background-color:#DBE0E4; color: black; font-family: Verdana; width: 20%}
+.summaryViewTable {background-color: white; color: blue; font-family: Verdana; font-size: 12; font-weight:bold; border: 2px solid #DDDDDD; width:100%}
+.rowEven {background-color:white; color: blue; font-family: Verdana; font-size: 12; font-weight:bold; width: 100%}
+.rowOdd {background-color:#F3F3F3; color: blue; font-family: Verdana; font-size: 12; font-weight:bold; width: 100%}
+.homeRowEven {background-color:white; color: #1A7AAD; font-family: Verdana; font-size: 12; font-weight:bold; width: 100%}
+.homeRowOdd {background-color:#F3F3F3; color: #1A7AAD; font-family: Verdana; font-size: 12; font-weight:bold; width: 100%}
+a.pianoKey:focus {background-color:#FF141D}
+.borderColor {background-color:#DDDDDD}
+.buttonGrey {background-color:#59666D}
+.menuTextLink {background-color:#1A7AAD}

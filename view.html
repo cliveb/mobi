@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD declaration for the XHTML-MP 1.0 -->
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" 
+        "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Synergy Mobile Progress Tracking</title>
+	<!-- Forces a reload of the page from the server -->
+	<meta http-equiv="cache-control" content="no-cache"/>
+	<!-- Needed in order to be served as text/html -->
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+	<link href="mtouchstyle.css" type="text/css" rel="stylesheet"/>
+	<!-- <link href="mstyle.css" type="text/css" rel="stylesheet"/> -->
+<script type="text/javascript">
+function nav() {window.location.href=document.forms[1].navSelect.options[document.forms[1].navSelect.selectedIndex].value;}
+function navBack()
+{window.location.href="home.html";}
+</script>
+</head>
+<body>
+<div class="header">
+<form id="navBack" action="#">
+<span>
+<button class="navButton" type="button" onclick="navBack();">&lt;</button><br/>
+</span>
+</form>
+<form id="navMenu" action="#">
+<span>
+<select class="navSelect" id="navSelect" name="navSelect" onchange="nav();">
+<option value="#" selected="selected">Menu Item 1</option>
+<option value="#">Menu Item 2</option>
+<option value="#">Menu Item 3</option>
+</select>
+</span>
+</form>
+</div>
+<p>
+<button class="searchButton" type="button">Search</button>
+</p>
+<table id="summaryView" class="summaryViewTable">
+<tr class="rowEven"><td><a href="detail.html">Column 1</a></td><td>Column 2</td><td>Column 3</td></tr>
+<tr class="rowOdd"><td>Column 1</td><td>Column 2</td><td>Column 3</td></tr>
+<tr class="rowEven"><td>Column 1</td><td>Column 2</td><td>Column 3</td></tr>
+<tr class="rowOdd"><td>Column 1</td><td>Column 2</td><td>Column 3</td></tr>
+<tr class="rowEven"><td>Column 1</td><td>Column 2</td><td>Column 3</td></tr>
+<tr class="rowOdd"><td>Column 1</td><td>Column 2</td><td>Column 3</td></tr>
+<tr class="rowEven"><td>Column 1</td><td>Column 2</td><td>Column 3</td></tr>
+<tr class="rowOdd"><td>Column 1</td><td>Column 2</td><td>Column 3</td></tr>
+</table>
+</body>
+</html>
